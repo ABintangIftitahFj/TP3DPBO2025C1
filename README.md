@@ -10,14 +10,32 @@ Saya A Bintang Iftitah FJ dengan NIM 2305995 mengerjakan soal Tes Praktikum 3 da
 ![TP3-DPBO](https://github.com/user-attachments/assets/3edd730f-794a-436b-8cbc-f0dde93e0812)
 
 # Deskripsi Kode
-a.) Terdapat kelas utama yaitu komponen -> mewarisi merk , nama 
-b.) terdapat 18 class 
-c.) kelas Mouse,peripherals, dan Base_io tidak terhubung dengan Komponen
-d.) Multilevel inheritence = Mouse->Peripherals->Base_io
-e.) Terdapat beberapa composite di diagram ditandai dengan panah diamond hitam
-f.) Terdapat inheritence single ditandai dengan panah arrow.
-g.) Memiliki polimorfism pada get info yang disesuaikan dengan kelas mana yang di panggil
-f.) Methode getter setter pada setiap kelas 
+## Struktur Kelas
+
+1. **Kelas Utama: Komponen**
+   - Mewarisi atribut `merk` dan `nama`.
+
+2. **Jumlah Kelas**
+   - Terdapat total **18 kelas**.
+
+3. **Hubungan Kelas**
+   - Kelas `Mouse`, `Peripherals`, dan `Base_io` **tidak terhubung** dengan `Komponen`.
+
+4. **Multilevel Inheritance**
+   - `Mouse` → `Peripherals` → `Base_io`.
+
+5. **Komposisi dalam Diagram**
+   - Ditandai dengan **panah diamond hitam** (🔷).
+
+6. **Single Inheritance**
+   - Ditandai dengan **panah arrow** (→).
+
+7. **Polimorfisme**
+   - Terdapat **metode `getInfo()`** yang menyesuaikan dengan kelas yang dipanggil.
+
+8. **Metode Getter dan Setter**
+   - Setiap kelas memiliki **getter dan setter** untuk mengakses atributnya.
+
 
 Inheritance (Pewarisan):
 
